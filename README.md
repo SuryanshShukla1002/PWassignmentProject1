@@ -5,4 +5,8 @@ layout, colours, and font styles in the image and make sure your HTML and CSS ac
 elements
 
 
-C:\Users\ACER\Pictures\Screenshots\Screenshot (3).png
+
+![Uploading pexels-maxyne-barcel-10402282 1.png…]()
+
+
+
