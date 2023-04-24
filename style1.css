@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    overflow: hidden;
+} 
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_01(HTML+CSS)/assets/pexels-maxyne-barcel-10402282%201.png?raw=true");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+nav {
+    color: white;
+    margin: 20px;
+    display: flex;
+     width: 100%;    
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+}
+
+li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  li:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+nav ul{    
+    display: flex;
+    gap: 40px;
+ } 
+button {
+    background-color: red;
+    margin-right: 60px;
+    width: fit-content;
+    padding: 4px 10px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+
+    /* margin-bottom: 140px; */
+}
+section button{
+    margin-bottom: 250px;
+    cursor: pointer;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 80px;
+    color: orange;
+}
+
+section p{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-family: 'Roboto', sans-serif;
+}
